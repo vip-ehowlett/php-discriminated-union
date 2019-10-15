@@ -1,0 +1,24 @@
+{
+    "name": "natepisarski/discriminated-union",
+    "description": "Algebraic data types in PHP! Well, kinda...",
+    "keywords": ["functional", "discriminated", "union", "monad"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nathaniel Pisarski",
+            "email": "nathanpisarski@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.4"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Natepisarski\\DiscriminatedUnion\\": "src/"
+        }
+    }
+}
